@@ -7,7 +7,7 @@ Salesperson Anil= new Salesperson("anil",1000,28);
 
 Worker Anoop= new Worker("anoop",1000,28);
 
-System.out.println(Kiran.name);
+System.out.println(Kiran);
 System.out.println(Anil.name);
 System.out.println(Anoop.name);
 

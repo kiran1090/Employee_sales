@@ -1,5 +1,5 @@
 public class Employee {
-    public String name;
+    protected String name;
     protected double salary;
     private int age;
     public Employee(String name,double salary,int age)
@@ -23,5 +23,14 @@ public class Employee {
     public void raiseSalary()
     {
         this.salary=this.salary + 2000;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", salary=" + salary +
+                ", age=" + age +
+                '}';
     }
 }

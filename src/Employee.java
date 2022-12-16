@@ -1,6 +1,6 @@
 public class Employee {
     private String name;
-    private double salary;
+    protected double salary;
     private int age;
     public Employee(String name,double salary,int age)
     {

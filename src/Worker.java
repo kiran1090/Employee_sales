@@ -6,6 +6,6 @@ public class Worker extends Employee
     }
     private double getAnnualBonus()
 {
-    return super.salay * 0.5;
+    return super.salary * 0.5;
 }
 }

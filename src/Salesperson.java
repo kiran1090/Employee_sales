@@ -8,5 +8,11 @@ private double commissionPercentage;
     public double getCommissionPercentage() {
         return commissionPercentage;
     }
+    public void raiseCommission()
+    {
+        if (this.commissionPercentage < .30) {
+            this.commissionPercentage=this.commissionPercentage * 1.2;
+        }
+    }
 
 }
